@@ -47,6 +47,7 @@
             android:layout_marginTop="16dp"
             android:minHeight="48dp"
             android:text="RadioButton1"
+            android:onClick="f1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.052"
             app:layout_constraintStart_toStartOf="parent"
@@ -82,6 +83,7 @@
             android:layout_height="wrap_content"
             android:minHeight="48dp"
             android:text="RadioButton4"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.052"
             app:layout_constraintStart_toStartOf="parent"

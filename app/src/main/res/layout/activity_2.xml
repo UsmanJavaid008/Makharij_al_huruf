@@ -41,7 +41,7 @@
         tools:ignore="NotSibling">
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/radioButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -54,40 +54,39 @@
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
             android:text="RadioButton2"
+            android:onClick="f2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.052"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioButton5"
             tools:ignore="NotSibling" />
 
         <RadioButton
-            android:id="@+id/radioButton8"
+            android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
             android:text="RadioButton3"
+            android:onClick="f3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.052"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioButton5"
             tools:ignore="NotSibling" />
 
         <RadioButton
-            android:id="@+id/radioButton9"
+            android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
             android:text="RadioButton4"
-
+            android:onClick="f4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.052"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioButton5"
             tools:ignore="NotSibling" />
     </RadioGroup>
 
